@@ -19,7 +19,7 @@
 
 <script lang="ts">
 	import type { PropType } from 'vue';
-	import type { ILink } from './ILink';
+	import type { ILink } from '@/interfaces/ILink';
 	export default {
 		computed: {
 			isActive(){
@@ -37,4 +37,4 @@
 
 <style lang="scss" scoped>
 
-</style>
+</style>../../interfaces/ILink

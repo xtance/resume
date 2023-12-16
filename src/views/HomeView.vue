@@ -93,7 +93,7 @@
 <script lang="ts">
 import IconText from '@/components/icon/IconText.vue';
 import Heading from '@/components/Heading.vue';
-import CardSkill from '@/components/CardSkill.vue';
+import CardSkill from '@/components/card/CardSkill.vue';
 import IconLink from '@/components/icon/IconLink.vue';
 import TextExperience from '@/components/text/TextExperience.vue';
 export default {

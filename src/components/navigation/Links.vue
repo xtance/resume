@@ -8,7 +8,7 @@
 
 <script lang="ts">
 	import type { PropType } from 'vue';
-	import type { ILink } from './ILink';
+	import type { ILink } from '@/components/ILink';
 	import Link from './Link.vue';
 	export default {
 		props: {
@@ -25,4 +25,4 @@
 
 <style lang="scss" scoped>
 
-</style>
+</style>../../interfaces/ILink
