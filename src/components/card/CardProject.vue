@@ -6,10 +6,10 @@
 			:src=" '/screenshots/' + project.images[0] "
 		/>
 		<div class="p-4">
-			<div class="bold opacity-80 text-xl">
+			<div class="text-xl light">
 				{{ project.title }}
 			</div>
-			<div v-html="project.text" class="text-lg">
+			<div v-html="project.text" class="text-lg opacity-80">
 				
 			</div>
 		</div>
