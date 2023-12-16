@@ -14,7 +14,7 @@
 
 <script lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import Navigation from './components/Navigation.vue';
+import Navigation from './components/navigation/Navigation.vue';
 import SelfInfo from './components/SelfInfo.vue';
 import Background from './components/Background.vue';
 import Footer from './components/Footer.vue';
