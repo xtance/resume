@@ -4,12 +4,12 @@
 		flex  md:gap-8
 		flex-col md:flex-row
 		justify-center md:justify-start
-		items-center
+		items-center mb-2
 	">
 		<!-- аватар -->
 		<img
 			class="rounded-full w-32 border-2 border-white mb-2"
-			src="/public/img/test.jpg"
+			src="/img/test.jpg"
 		/>
 		<div>
 			<h1 class="text-xl">

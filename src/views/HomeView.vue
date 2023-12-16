@@ -2,19 +2,23 @@
 
 	
 
-	<div class="flex">
+	<div class="flex bg-black/20 mt-1 rounded-b-md backdrop-blur-xl">
 		<!-- профиль -->
 		<div class="
 			w-2/5
-			bg-zinc-900 text-white p-4
+			 p-4
 		">
+			Текст
 		</div>
 		<!-- информация -->
 		<div class="
 			w-3/5
-			bg-white text-zinc-900 p-4
+			 p-4
 		">
-
+			Обо мне <br>
+			Обо мне <br>
+			Обо мне <br>
+			Обо мне <br>
 		</div>
 	</div>
 </template>
