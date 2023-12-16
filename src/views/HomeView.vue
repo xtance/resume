@@ -1,31 +1,40 @@
 <template>
-	<div class="flex  my-1  backdrop-blur-xl">
-		<!-- профиль -->
-		<div class="
-			w-2/5
-			p-4
-		">
-			<Heading>???</Heading>
-			<IconText icon="phone" text="+7911" />
-		</div>
+	<div class="flex mt-8">
 		<!-- информация -->
 		<div class="
 			w-3/5
 			p-4
 		">
-			<Heading>Текст</Heading>
-			<p>
-				С 2017 года я пишу код, зачем-то.
+			<p class="text-justify">
+				Как веб-разработчик, я специализируюсь на создании пользовательских интерфейсов.
+				Используя современные фреймворки для работы с JS/TS, я могу превратить макет
+				в полноценное приложение с адаптивной вёрсткой. <br>  <br>
+				Я регулярно изучаю новые технологии для расширения своих навыков.  <br>
+				Окончив колледж по специальности «техник-программист», я готов
+				к работе над новыми интересными проектами в сфере веб-разработки.
+
 			</p>
-			
 		</div>
+
+		<!-- связь -->
+		<div class="
+			w-2/5
+			p-4
+			flex flex-col items-end
+		">
+			<Heading>Связь</Heading>
+			<IconLink icon="phone" text="+79011990955" href="tel:+79011990955" />
+			<IconLink icon="telegram" text="Telegram" href="https://t.me/xtance" />
+			<IconLink icon="data_object" text="GitHub" href="https://t.me/xtance" />
+		</div>
+		
 	</div>
 
 	<div class="p-4">
 		Навыки
 	</div>
 
-	<div class="backdrop-blur-xl">
+	<div class="">
 		<div class="grid grid-cols-4 gap-1">
 			<CardSkill icon="phone" title="TypeScript" text="Разработка приложений на фронтенде и бэкенде" />
 			<CardSkill icon="phone" title="Vue" text="Знание Options и Composition API, компонентный подход" />
@@ -50,11 +59,12 @@
 </template>
 
 <script lang="ts">
-import IconText from '@/components/IconText.vue';
+import IconText from '@/components/icon/IconText.vue';
 import Heading from '@/components/Heading.vue';
 import CardSkill from '@/components/CardSkill.vue';
+import IconLink from '@/components/icon/IconLink.vue';
 export default {
-	components: { IconText, Heading, CardSkill }
+	components: { IconText, Heading, CardSkill, IconLink }
 }
 </script>
 
