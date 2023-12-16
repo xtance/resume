@@ -1,17 +1,11 @@
 <template>
-	<div>
-		{{ text }}
+	<div class="bold text-lg">
+		<slot/>
 	</div>
 </template>
 
 <script lang="ts">
 	export default {
-		props: {
-			text: {
-				type: String,
-				required: true
-			},
-		}
 	}
 </script>
 

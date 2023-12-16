@@ -54,3 +54,19 @@
 *:after {
 	font-family: 'Regular';
 }
+
+.light {
+	font-family: 'Light';
+}
+
+.regular {
+	font-family: 'Regular';
+}
+
+.medium {
+	font-family: 'Medium';
+}
+
+.bold {
+	font-family: 'Bold';
+}
