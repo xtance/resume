@@ -1,16 +1,13 @@
 <template class="">
 	<Background />
-  <div class="flex justify-center mt-8 md:mt-16">
-    <div class="
-      w-full md:w-3/4 2xl:w-1/2
-      overflow-clip
-    ">
-      <header class="">
-        <SelfInfo />
-        <Navigation />
-      </header>
-      <RouterView />
-    </div>
+  <div class="
+    w-full md:w-3/4 2xl:w-1/2
+    m-auto
+    mt-8 md:mt-16
+  ">
+    <SelfInfo />
+    <Navigation />
+    <RouterView />
   </div>
 </template>
 
