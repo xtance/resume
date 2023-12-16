@@ -22,7 +22,6 @@
 			p-4
 			flex flex-col items-end
 		">
-			<Heading>Связь</Heading>
 			<IconLink icon="phone" text="+79011990955" href="tel:+79011990955" />
 			<IconLink icon="telegram" text="Telegram" href="https://t.me/xtance" />
 			<IconLink icon="data_object" text="GitHub" href="https://t.me/xtance" />
@@ -31,42 +30,63 @@
 	</div>
 
 	<div class="p-4">
-		Навыки
+		Навыки:
 	</div>
 
-	<div class="">
-		<div class="grid grid-cols-4 gap-1">
-			<CardSkill icon="phone" title="TypeScript" text="Разработка приложений на фронтенде и бэкенде" />
-			<CardSkill icon="phone" title="Vue" text="Знание Options и Composition API, компонентный подход" />
-			<CardSkill icon="phone" title="CSS" text="Адаптивная вёрстка по стандартам CSS" />
-			<CardSkill icon="phone" title="Tailwind" text="Быстрая стилизация компонентов на TW 3+" />
-			<CardSkill icon="phone" title="Node.JS" text="Использование системных API, работа с Express и Fastify" />
-			<CardSkill icon="phone" title="Svelte+Kit" text="Создание фронтенда на Svelte, перенос приложения с React/Vue" />
-			<CardSkill icon="phone" title="CEF" text="Адаптация веб-приложения под Chromium Embedded Framework" />
-			<CardSkill icon="phone" title="HTTP" text="Взаимодействие клиент-сервер, <br>REST API" />
-		</div>
+	<div class="grid grid-cols-4 gap-1 mb-2">
+		<CardSkill icon="phone" title="TypeScript" text="Разработка приложений на фронтенде и бэкенде" />
+		<CardSkill icon="phone" title="Vue" text="Знание Options и Composition API, компонентный подход" />
+		<CardSkill icon="phone" title="CSS" text="Адаптивная вёрстка по стандартам CSS" />
+		<CardSkill icon="phone" title="Tailwind" text="Быстрая стилизация компонентов на TW 3+" />
+		<CardSkill icon="phone" title="Node.JS" text="Использование системных API, работа с Express и Fastify" />
+		<CardSkill icon="phone" title="Svelte+Kit" text="Создание фронтенда на Svelte, перенос приложения с React/Vue" />
+		<CardSkill icon="phone" title="CEF" text="Адаптация веб-приложения под Chromium Embedded Framework" />
+		<CardSkill icon="phone" title="HTTP" text="Взаимодействие клиент-сервер, <br>REST API" />
 	</div>
 
 	<div class="bg-gradient-to-b from-white/5 rounded-t-md">
-		<Heading class="p-4 border-b border-white/5">Опыт работы</Heading>
-		<p class="p-4">
-			Обо мне <br>
-			Обо мне <br>
-			Обо мне <br>
-			Обо мне <br>
-			Обо мне <br>
-			Обо мне <br>
-			Обо мне <br>
-			Обо мне <br>
-			Обо мне <br>
-			Обо мне <br>
-			Обо мне <br>
-			Обо мне <br>
-			Обо мне <br>
-			Обо мне <br>
-			Обо мне <br>
-			Обо мне <br>
-		</p>
+		<Heading class="p-4 border-b border-white/5">Опыт разработки проектов</Heading>
+
+		<TextExperience>
+			<template v-slot:year>2022-2023</template>
+			<template v-slot:info>Разработка веб-панели</template>
+		</TextExperience>
+
+		<TextExperience>
+			<template v-slot:year>2022</template>
+			<template v-slot:info>Участие в WorldSkills VI</template>
+		</TextExperience>
+
+		<TextExperience>
+			<template v-slot:year>2022</template>
+			<template v-slot:info>Вёрстка макета планшета</template>
+		</TextExperience>
+
+		<TextExperience>
+			<template v-slot:year>2021-2022</template>
+			<template v-slot:info>Разработка сайта мебельного салона</template>
+		</TextExperience>
+
+		<TextExperience>
+			<template v-slot:year>2021</template>
+			<template v-slot:info>Практика в ГУП ИАЦ</template>
+		</TextExperience>
+
+		<TextExperience>
+			<template v-slot:year>2020</template>
+			<template v-slot:info>Сервер alt:V</template>
+		</TextExperience>
+
+		<TextExperience>
+			<template v-slot:year>2018-2022</template>
+			<template v-slot:info>Проекты в колледже</template>
+		</TextExperience>
+
+		<TextExperience>
+			<template v-slot:year>2017</template>
+			<template v-slot:info>Сервер в CS</template>
+		</TextExperience>
+		
 	</div>
 </template>
 
@@ -75,8 +95,9 @@ import IconText from '@/components/icon/IconText.vue';
 import Heading from '@/components/Heading.vue';
 import CardSkill from '@/components/CardSkill.vue';
 import IconLink from '@/components/icon/IconLink.vue';
+import TextExperience from '@/components/text/TextExperience.vue';
 export default {
-	components: { IconText, Heading, CardSkill, IconLink }
+	components: { IconText, Heading, CardSkill, IconLink, TextExperience }
 }
 </script>
 
