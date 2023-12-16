@@ -1,12 +1,18 @@
-<template>
+<template class="bg-red-400">
   <header>
     <nav>
       <RouterLink to="/">Home</RouterLink>
       <RouterLink to="/test">Test</RouterLink>
     </nav>
   </header>
-  <div class="w-full p-2">
-    <RouterView />
+  <div class="flex justify-center">
+    <div class="
+      w-full md:w-3/4 2xl:w-1/2
+      bg-white shadow-lg
+      rounded-md overflow-clip
+    ">
+      <RouterView />
+    </div>
   </div>
 </template>
 
