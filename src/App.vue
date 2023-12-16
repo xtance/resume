@@ -8,6 +8,7 @@
     <SelfInfo />
     <Navigation />
     <RouterView />
+    <Footer />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import { RouterLink, RouterView } from 'vue-router'
 import Navigation from './components/Navigation.vue';
 import SelfInfo from './components/SelfInfo.vue';
 import Background from './components/Background.vue';
+import Footer from './components/Footer.vue';
 export default {
   components: {
     RouterLink,
@@ -23,6 +25,7 @@ export default {
     Navigation,
     SelfInfo,
     Background,
+    Footer,
   }
 }
 </script>
