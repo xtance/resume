@@ -8,14 +8,12 @@
 			flex flex-col items-center justify-start
 			p-4 py-8 cursor-pointer 
 		"
-		:class="{
-			'bg-white/10': hover,
-			'bg-gradient-to-b from-white/5': !hover,
-		}"
+		:class="hover ? 'bg-white/10' : 'bg-gradient-to-b from-white/5'"
 	>
-		<div class="mi text-2xl">
+		<!-- <div class="mi text-2xl">
 			{{ icon }}
-		</div>
+		</div> -->
+		<img width="50" height="50" :src="icon" :class="hover ? '' : 'grayscale'" />
 		<div class="text-xl py-2 bold">
 			{{ title }}
 		</div>

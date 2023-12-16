@@ -34,14 +34,14 @@
 	</div>
 
 	<div class="grid grid-cols-2 lg:grid-cols-4 mx-2 lg:mx-0 gap-1 mb-2">
-		<CardSkill icon="phone" title="TypeScript" text="Разработка приложений на фронтенде и бэкенде" />
-		<CardSkill icon="phone" title="Vue" text="Знание Options и Composition API, компонентный подход" />
-		<CardSkill icon="phone" title="CSS" text="Адаптивная вёрстка по стандартам CSS" />
-		<CardSkill icon="phone" title="Tailwind" text="Быстрая стилизация компонентов на TW 3+" />
-		<CardSkill icon="phone" title="Node.JS" text="Использование системных API, работа с Express и Fastify" />
-		<CardSkill icon="phone" title="Svelte+Kit" text="Создание фронтенда на Svelte, перенос приложения с React/Vue" />
-		<CardSkill icon="phone" title="CEF" text="Адаптация веб-приложения под Chromium Embedded Framework" />
-		<CardSkill icon="phone" title="HTTP" text="Взаимодействие клиент-сервер, <br>REST API" />
+		<CardSkill icon="/icons/ts.svg" title="TypeScript" text="Разработка приложений на фронтенде и бэкенде" />
+		<CardSkill icon="/icons/vue.svg" title="Vue" text="Знание Options и Composition API, компонентный подход" />
+		<CardSkill icon="/icons/css.svg" title="CSS" text="Адаптивная вёрстка по стандартам CSS" />
+		<CardSkill icon="/icons/tw.svg" title="Tailwind" text="Быстрая стилизация компонентов на TW 3+" />
+		<CardSkill icon="/icons/node.svg" title="Node.JS" text="Использование системных API, работа с Express и Fastify" />
+		<CardSkill icon="/icons/svelte.svg" title="Svelte+Kit" text="Создание фронтенда на Svelte, перенос приложения с React/Vue" />
+		<CardSkill icon="/icons/chrome.svg" title="CEF" text="Адаптация веб-приложения под Chromium Embedded Framework" />
+		<CardSkill icon="/icons/nginx.svg" title="HTTP" text="Взаимодействие клиент-сервер, <br>настройка NGINX" />
 	</div>
 
 	<div class="bg-gradient-to-b from-white/5 rounded-t-md mx-2 lg:mx-0">
