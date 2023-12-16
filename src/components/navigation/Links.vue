@@ -8,7 +8,7 @@
 
 <script lang="ts">
 	import type { PropType } from 'vue';
-	import type { ILink } from '@/components/ILink';
+	import type { ILink } from '@/interfaces/ILink';
 	import Link from './Link.vue';
 	export default {
 		props: {

@@ -35,9 +35,9 @@ export default {
 					images: [ "soul0.png", "soul1.png" ]
 				},
 				{
-					title: "Мебельный салон",
+					title: "Планшет",
 					text: "...",
-					images: [ "soul0.png", "soul1.png" ]
+					images: [ "tablet3.png", "tablet1.png" ]
 				},
 			] as IProject[]
 		}
