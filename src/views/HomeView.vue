@@ -1,8 +1,8 @@
 <template>
-	<div class="flex mt-8">
+	<div class="flex flex-wrap mt-8">
 		<!-- информация -->
 		<div class="
-			w-3/5
+			w-full sm:w-3/5
 			p-4
 		">
 			<p class="text-justify">
@@ -18,9 +18,9 @@
 
 		<!-- связь -->
 		<div class="
-			w-2/5
+			w-full sm:w-2/5
 			p-4
-			flex flex-col items-end
+			flex flex-col sm:items-end
 		">
 			<IconLink icon="phone" text="+79011990955" href="tel:+79011990955" />
 			<IconLink icon="telegram" text="Telegram" href="https://t.me/xtance" />
@@ -33,7 +33,7 @@
 		Навыки:
 	</div>
 
-	<div class="grid grid-cols-4 gap-1 mb-2">
+	<div class="grid grid-cols-2 lg:grid-cols-4 mx-2 lg:mx-0 gap-1 mb-2">
 		<CardSkill icon="phone" title="TypeScript" text="Разработка приложений на фронтенде и бэкенде" />
 		<CardSkill icon="phone" title="Vue" text="Знание Options и Composition API, компонентный подход" />
 		<CardSkill icon="phone" title="CSS" text="Адаптивная вёрстка по стандартам CSS" />
@@ -44,7 +44,7 @@
 		<CardSkill icon="phone" title="HTTP" text="Взаимодействие клиент-сервер, <br>REST API" />
 	</div>
 
-	<div class="bg-gradient-to-b from-white/5 rounded-t-md">
+	<div class="bg-gradient-to-b from-white/5 rounded-t-md mx-2 lg:mx-0">
 		<Heading class="p-4 border-b border-white/5">Опыт разработки проектов</Heading>
 
 		<TextExperience>
