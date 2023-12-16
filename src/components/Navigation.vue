@@ -1,23 +1,23 @@
 <template>
 	<nav class="
 		flex justify-between gap-1
-		rounded-t-md overflow-clip
-		backdrop-blur-xl
+		overflow-clip
+		backdrop-blur-xl 
 	">
 		<RouterLink
 			v-for="link in links"
 			:key="link.to"
 			class="
-				w-full p-4
+				w-full
 				text-center
-				bg-black/20
+				duration-100
+				hover:bg-white/5 rounded-t-md
 			"
-			:class="{
-				'bg-black/10': $route.path === link.to
-			}"
 			:to="link.to"
 		>
-			{{ link.name }}
+			<div class="p-4">{{ link.name }}</div>
+			<div class="h-[1px]  rounded-full" :class="[$route.path === link.to ? 'bg-white' : 'bg-white/50']"></div>
+			
 		</RouterLink>
 	</nav>
 
@@ -33,7 +33,7 @@
 					{ to: "/contacts", name: "Контакты" },
 				]
 			}
-		}
+		},
 	}
 </script>
 
