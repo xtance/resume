@@ -7,24 +7,44 @@ export const useProjectStore = defineStore('project', () => {
 		{
 			title: "Мебельный салон",
 			text: "...",
-			images: [ "soul0.png", "soul1.png" ]
+			images: [ "soul0.png", "soul1.png", "soul1.png","soul1.png", ],
+			icons: [ 'vue' ],
+			link: {
+				href: 'https://soulswedmebel.ru',
+				name: 'Сайт',
+			}
 		},
 		{
 			title: "Планшет",
 			text: "...",
-			images: [ "tablet3.png", "tablet1.png" ]
+			images: [ "tablet3.png", "tablet0.png", "tablet1.png", "tablet2.png", "tablet4.png",  ],
+			icons: [ 'vue' ],
+			link: {
+				href: 'https://soulswedmebel.ru',
+				name: 'Сайт',
+			}
 		},
 	]);
 	const hobby = ref<IProject[]>([
 		{
 			title: "Мебельный салон",
 			text: "...",
-			images: [ "soul0.png", "soul1.png" ]
+			images: [ "soul0.png", "soul1.png" ],
+			icons: [ 'vue' ],
+			link: {
+				href: 'https://soulswedmebel.ru',
+				name: 'Сайт',
+			}
 		},
 		{
 			title: "Планшет",
 			text: "...",
-			images: [ "tablet3.png", "tablet1.png" ]
+			images: [ "tablet3.png", "tablet1.png" ],
+			icons: [ 'vue' ],
+			link: {
+				href: 'https://soulswedmebel.ru',
+				name: 'Сайт',
+			}
 		},
 	]);
 	return {
