@@ -9,7 +9,7 @@
 		<!-- аватар -->
 		<img
 			class="rounded-full w-32 border-2 border-white mb-2 hover:animate-spin cursor-wait"
-			src="/img/test.jpg"
+			src="/img/self.png"
 		/>
 		<div>
 			<h1 class="text-xl">
