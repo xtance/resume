@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-gradient-to-t from-white/5  rounded-md">
+	<div class="bg-gradient-to-t from-white/5  rounded-md select-none">
 
 		<!-- Галерея -->
 		<div class="

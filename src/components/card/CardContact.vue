@@ -10,6 +10,7 @@
 			relative
 			duration-200
 			hover:scale-95
+			select-none
 		"
 		:style="hover ? `background-color: ${contact.color}90` : `background-color: ${contact.color}60`"
 		ref="card"

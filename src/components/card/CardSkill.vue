@@ -6,7 +6,7 @@
 		class="
 			rounded-md 
 			flex flex-col items-center justify-start
-			p-4 py-8 cursor-pointer 
+			p-4 py-8 cursor-pointer select-none
 		"
 		:class="hover ? 'bg-white/10' : 'bg-gradient-to-b from-white/5'"
 	>
