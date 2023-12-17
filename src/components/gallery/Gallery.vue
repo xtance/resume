@@ -18,7 +18,7 @@
 				bg-contain bg-center bg-no-repeat
 				rounded-md overflow-hidden
 			"
-			:style="`background-image: url('/screenshots/${galleryStore.current}')`"
+			:style="`background-image: url('/img/screenshots/${galleryStore.current}')`"
 		>
 			<div class="">
 				<!-- <img class="object-contain rounded-md shadow-xl" :src="`/screenshots/${galleryStore.current}`" /> -->

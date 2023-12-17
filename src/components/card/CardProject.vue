@@ -13,7 +13,7 @@
 				loading="lazy"
 				class="rounded-md cursor-pointer"
 				:class="index > 0 ? 'hidden lg:block' : ''"
-				:src=" '/screenshots/' + image "
+				:src=" '/img/screenshots/' + image "
 				@click="galleryStore.enable(project.images, index)"
 			/>
 			
