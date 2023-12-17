@@ -1,5 +1,5 @@
 <template>
-	<a :href="href" class="flex items-center gap-2 opacity-80 hover:opacity-100">
+	<a :href="href" target="_blank" class="flex items-center gap-2 opacity-80 hover:opacity-100">
 		<i class="mi">{{ icon }}</i>
 		<div class="">{{ text }}</div>
 	</a>

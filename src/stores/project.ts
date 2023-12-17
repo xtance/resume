@@ -40,7 +40,7 @@ export const useProjectStore = defineStore('project', () => {
 			title: "Интерфейс для сервера alt:V",
 			text: "GUI отображается поверх игры через Chromium Embedded Framework. Проект включает в себя меню сервера с вкладками, инвентарь с drag-n-drop, крафт предметов, форму регистрации, диалоговые меню, открытие кейсов.",
 			images: [ "altv1.png", "altv2.png", "altv3.png", "altv4.png", "altv5.png", "altv0.png",  ],
-			icons: [ 'svelte', 'node', 'chrome' ],
+			icons: [ 'svelte', 'node', 'ts', 'chrome', 'tw' ],
 			link: {
 				href: 'https://altv.run/1mYtfig',
 				name: 'Сервер alt:V',
@@ -50,7 +50,7 @@ export const useProjectStore = defineStore('project', () => {
 			title: "Онлайн-игра «Пазлы»",
 			text: "Курсовая работа в колледже. Браузерная игра на нативном JS - сбор пазлов на скорость в одиночку или против соперника. Для связи с Node.JS сервером используется Socket.IO",
 			images: [ "puzzle0.png", "puzzle1.png", "puzzle2.png", ],
-			icons: [ 'js', 'node', 'socketio' ],
+			icons: [ 'js', 'node', 'socketio', 'css' ],
 			link: {
 				href: 'https://github.com/xtance/Puzzle',
 				name: 'GitHub',
