@@ -47,6 +47,10 @@
 			MenuToggle,
 		},
 		mounted() {
+
+				// Баг с тем что меню остается после выбора на телефоне
+				this.$router?.afterEach(() => this.isOpened = false);
+
 				// отслеживание панели навигации
 				const nav = this.$refs.nav as HTMLElement;
 				if (!nav) return;
