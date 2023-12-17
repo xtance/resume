@@ -12,7 +12,6 @@
 				Я регулярно изучаю новые технологии для расширения своих навыков.  <br>
 				Окончив колледж по специальности «техник-программист», я готов
 				к работе над новыми интересными проектами в сфере веб-разработки.
-
 			</p>
 		</div>
 
@@ -22,6 +21,7 @@
 			p-4
 			flex flex-col sm:items-end
 		">
+			<IconLink icon="place" text="Санкт-Петербург" href="#" />
 			<IconLink icon="phone" text="+79011990955" href="tel:+79011990955" />
 			<IconLink icon="telegram" text="Telegram" href="https://t.me/xtance" />
 			<IconLink icon="data_object" text="GitHub" href="https://t.me/xtance" />
@@ -60,7 +60,7 @@
 
 		<TextExperience>
 			<template v-slot:year>2022</template>
-			<template v-slot:info>Участвовал в региональном этапе WorldSkills в компетенции "Веб-технологии" (2 место).</template>
+			<template v-slot:info>Участвовал в региональном этапе WorldSkills Russia VII в компетенции "Веб-технологии" (2 место).</template>
 		</TextExperience>
 
 		<TextExperience>
