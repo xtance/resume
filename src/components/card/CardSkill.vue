@@ -4,7 +4,7 @@
 		@mouseenter="hover = true"
 		@mouseleave="hover = false"
 		class="
-			rounded-md backdrop-blur-xl
+			rounded-md 
 			flex flex-col items-center justify-start
 			p-4 py-8 cursor-pointer 
 		"
