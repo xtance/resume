@@ -21,7 +21,7 @@
 
 		<!-- Текст -->
 		<div class="p-4">
-			<div class="text-xl light">
+			<div class="text-xl light pb-2">
 				{{ project.title }}
 			</div>
 			<div v-html="project.text" class="text-lg opacity-80">
@@ -34,7 +34,7 @@
 			<div class="">
 				<IconLink icon="open_in_new" :href="project.link.href" :text="project.link.name" class="text-xl" />
 			</div>
-			<div class="flex justify-center">
+			<div class="flex justify-center gap-2">
 				<img width="24" height="24" :src="`/icons/${icon}.svg`" :alt="icon" v-for="icon in project.icons" :key="icon" />
 			</div>
 		</div>
