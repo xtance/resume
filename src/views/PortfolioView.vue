@@ -21,7 +21,7 @@
 		<IconDouble
 			icon="arrow_downward"
 			title="Личные проекты"
-			subtitle="Заказы, выполненные в свободное время"
+			subtitle="Приложения, созданные в свободное время"
 			class="mb-8"
 		/>
 
