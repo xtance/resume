@@ -24,7 +24,7 @@
 			<IconLink icon="place" text="Санкт-Петербург" href="#" />
 			<IconLink icon="phone" text="+79011990955" href="tel:+79011990955" />
 			<IconLink icon="telegram" text="Telegram" href="https://t.me/xtance" />
-			<IconLink icon="data_object" text="GitHub" href="https://t.me/xtance" />
+			<IconLink icon="data_object" text="GitHub" href="https://github.com/xtance" />
 		</div>
 		
 	</div>
