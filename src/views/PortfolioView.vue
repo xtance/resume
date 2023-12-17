@@ -9,9 +9,25 @@
 		/>
 
 		<!-- Проект -->
-		<div class="overflow-hidden">
+		<div class="">
 				<CardProject
-					v-for="project in projects"
+					v-for="project in projectStore.commercial"
+					:key="project.title"
+					:project="project"
+					class="mb-4"
+				/>
+		</div>
+
+		<IconDouble
+			icon="arrow_downward"
+			title="Личные проекты"
+			subtitle="Заказы, выполненные в свободное время"
+			class="mb-8"
+		/>
+
+		<div class="">
+				<CardProject
+					v-for="project in projectStore.hobby"
 					:key="project.title"
 					:project="project"
 					class="mb-4"
@@ -22,24 +38,17 @@
 
 <script lang="ts">
 import CardProject from '@/components/card/CardProject.vue';
-import type { IProject } from '@/interfaces/IProject';
 import IconDouble from '@/components/icon/IconDouble.vue';
+import { useProjectStore } from '@/stores/project';
+import { mapStores } from 'pinia';
 
 export default {
+	computed: {
+		...mapStores(useProjectStore)
+	},
 	data(){
 		return {
-			projects: [
-			{
-					title: "Мебельный салон",
-					text: "...",
-					images: [ "soul0.png", "soul1.png" ]
-				},
-				{
-					title: "Планшет",
-					text: "...",
-					images: [ "tablet3.png", "tablet1.png" ]
-				},
-			] as IProject[]
+
 		}
 	},
 	components: { CardProject, IconDouble }
