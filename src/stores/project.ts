@@ -7,7 +7,7 @@ export const useProjectStore = defineStore('project', () => {
 		{
 			title: "Мебельный салон",
 			text: "...",
-			images: [ "soul0.png", "soul1.png", "soul1.png","soul1.png", ],
+			images: [ "soul0.png", "soul1.png", "soul2.png", ],
 			icons: [ 'vue' ],
 			link: {
 				href: 'https://soulswedmebel.ru',

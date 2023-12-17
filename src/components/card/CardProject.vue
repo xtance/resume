@@ -11,9 +11,10 @@
 				v-for="(image, index) in project.images.slice(0, maxImagesPerProject)"
 				:key="image"
 				loading="lazy"
-				class="rounded-md"
+				class="rounded-md cursor-pointer"
 				:class="index > 0 ? 'hidden lg:block' : ''"
 				:src=" '/screenshots/' + image "
+				@click="galleryStore.enable(project.images, index)"
 			/>
 			
 		</div>
@@ -48,6 +49,9 @@
 import type { PropType } from 'vue';
 import type { IProject } from '@/interfaces/IProject';
 import IconLink from '../icon/IconLink.vue';
+import { mapStores } from 'pinia';
+import { useGalleryStore } from '@/stores/gallery';
+
 	export default {
     data() {
         return {
@@ -60,6 +64,9 @@ import IconLink from '../icon/IconLink.vue';
             required: true,
         }
     },
+		computed: {
+			...mapStores(useGalleryStore),
+		},
     components: { IconLink }
 }
 </script>
