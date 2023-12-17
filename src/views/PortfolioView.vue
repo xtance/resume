@@ -22,7 +22,7 @@
 			icon="arrow_downward"
 			title="Личные проекты"
 			subtitle="Приложения, созданные в свободное время"
-			class="mb-8"
+			class="my-8"
 		/>
 
 		<div class="">
