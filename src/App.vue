@@ -8,6 +8,7 @@
     <SelfInfo />
     <Navigation />
     <RouterView />
+    <Gallery />
     <Footer />
   </div>
 </template>
@@ -18,22 +19,19 @@ import Navigation from './components/navigation/Navigation.vue';
 import SelfInfo from './components/SelfInfo.vue';
 import Background from './components/Background.vue';
 import Footer from './components/Footer.vue';
+import Gallery from './components/gallery/Gallery.vue';
 export default {
   components: {
-    RouterLink,
-    RouterView,
-    Navigation,
-    SelfInfo,
-    Background,
-    Footer,
+      RouterLink,
+      RouterView,
+      Navigation,
+      SelfInfo,
+      Background,
+      Footer,
+      Gallery,
   }
 }
 </script>
 
 <style>
-nav {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-}
 </style>
