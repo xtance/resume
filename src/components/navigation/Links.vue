@@ -3,6 +3,7 @@
 			v-for="link in links"
 			:key="link.to"
 			:link="link"
+			:isSticky="isSticky"
 	/>
 </template> 
 
@@ -14,6 +15,10 @@
 		props: {
 			links: {
 				type: Object as PropType<ILink[]>,
+				required: true,
+			},
+			isSticky: {
+				type: Boolean,
 				required: true,
 			}
 		},

@@ -6,9 +6,8 @@
 			z-10 
 			sticky top-0
 			select-none
-			bg-black/5 md:bg-transparent
 		"
-		:class="[ isSticky ? 'backdrop-blur' : '', isOpened ? '' : '']" 
+		:class="[ isSticky ? 'backdrop-blur-sm bg-zinc-800/90 rounded-b-md' : 'bg-black/5 md:bg-transparent', isOpened ? '' : '']" 
 	><!-- bg-zinc-900 -->
 
 			<MenuToggle :is-opened="isOpened" @toggle="(b) => isOpened = b">
@@ -16,7 +15,7 @@
 			</MenuToggle>
 
 			<div class="w-full justify-between gap-1 md:flex" :class="[ isOpened ? 'block' : 'hidden ']">
-				<Links :links="links" />
+				<Links :links="links" :isSticky="isSticky" />
 			</div>
 		
 	</nav>
