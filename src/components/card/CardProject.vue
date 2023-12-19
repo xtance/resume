@@ -30,7 +30,7 @@
 		</div>
 
 		<!-- ссылки -->
-		<div class="p-4 border-t border-white/5 flex justify-between">
+		<div class="p-4 border-t border-white/5 flex justify-between max-h-16">
 			<div class="">
 				<IconLink icon="open_in_new" :href="project.link.href" :text="project.link.name" class="text-xl" />
 			</div>

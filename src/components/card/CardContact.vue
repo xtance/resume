@@ -11,6 +11,7 @@
 			duration-200
 			hover:scale-95
 			select-none
+			min-h-[128px]
 		"
 		:style="hover ? `background-color: ${contact.color}90` : `background-color: ${contact.color}60`"
 		ref="card"
